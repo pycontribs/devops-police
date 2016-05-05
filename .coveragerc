@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/devops_police
+   */site-packages/devops_police
+
+[run]
+branch = True
+source =
+    devops_police
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
